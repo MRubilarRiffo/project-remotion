@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "category": "animales",
+    "title": "🦁 ADIVINA EL ANIMAL",
+    "answer": "LEON",
+    "hint": "L _ _ N",
+    "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600&auto=format&fit=crop&q=80",
+    "funFact": "¡El león es conocido como el rey de la selva!"
+  },
+  {
+    "id": 2,
+    "category": "animales",
+    "title": "🦁 ADIVINA EL ANIMAL",
+    "answer": "ELEFANTE",
+    "hint": "E _ _ F _ _ _ E",
+    "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=600&auto=format&fit=crop&q=80",
+    "funFact": "¡Los elefantes son los animales terrestres más grandes!"
+  }
+]

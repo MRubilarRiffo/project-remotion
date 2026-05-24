@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradientOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(2px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 5px 15px rgba(255, 255, 255, 0.6), 
+              0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.gridPattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.08;
+  background-image: 
+    radial-gradient(#ffffff 2px, transparent 2px), 
+    radial-gradient(#ffffff 2px, #transparent 2px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  pointer-events: none;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Lilita+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fredoka', 'Lilita One', 'Segoe UI', Roboto, sans-serif;
+  background-color: #0c0f1d;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* Clases utilitarias de fuentes para usar en los componentes */
+.fontLilita {
+  font-family: 'Lilita One', cursive, sans-serif;
+}
+
+.fontFredoka {
+  font-family: 'Fredoka', sans-serif;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "CHILE",
+    "hint": "_ H _ L _",
+    "image": "https://flagcdn.com/w640/cl.png",
+    "funFact": "¡Chile es el país más largo y angosto del mundo!"
+  },
+  {
+    "id": 2,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "BRASIL",
+    "hint": "_ R A _ I _",
+    "image": "https://flagcdn.com/w640/br.png",
+    "funFact": "¡Brasil es famoso por la selva del Amazonas!"
+  },
+  {
+    "id": 3,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "JAPON",
+    "hint": "J _ P _ _",
+    "image": "https://flagcdn.com/w640/jp.png",
+    "funFact": "¡Japón es conocido como el país del sol naciente!"
+  }
+]
