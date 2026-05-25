@@ -4,11 +4,14 @@ import { Background } from "./components/Background";
 import { IntroScene } from "./scenes/IntroScene";
 import { QuizScene } from "./scenes/QuizScene";
 import { RevealScene } from "./scenes/RevealScene";
+import { CtaScene } from "./scenes/CtaScene";
 import styles from "./QuizVideo.module.css";
 
 export const QuizVideo = ({
   category = "países",
-  title = "🌎 ADIVINA EL PAÍS",
+  title = "¿QUÉ PAÍS ES?",
+  hookText = "¡Sólo el 1% adivina el país! 🌎",
+  ctaText = "¡Comenta tu respuesta! 👇",
   emoji = "🌎",
   answer = "CHILE",
   hint = "_ H _ L _",
@@ -27,19 +30,19 @@ export const QuizVideo = ({
       {/* 2. Fondo Animado Común (Dura toda la composición) */}
       <Background colorTheme={category} />
 
-      {/* 3. Escena 1: Intro (0s - 3s | Frames 0 - 90) */}
-      <Sequence from={0} durationInFrames={90}>
+      {/* 3. Escena 1: Intro / Hook (0s - 2.5s | Frames 0 - 75) */}
+      <Sequence from={0} durationInFrames={75}>
         <Audio src="https://remotion.media/whoosh.wav" volume={0.8} />
-        <IntroScene title={title} emoji={emoji} />
+        <IntroScene hookText={hookText} emoji={emoji} />
       </Sequence>
 
-      {/* Efecto whoosh para la salida del título */}
-      <Sequence from={75} durationInFrames={30} layout="none">
+      {/* Efecto whoosh para la transición hacia QuizScene */}
+      <Sequence from={65} durationInFrames={30} layout="none">
         <Audio src="https://remotion.media/whoosh.wav" volume={0.6} />
       </Sequence>
 
-      {/* 4. Escena 2 y 3: Quiz + Temporizador (3s - 12s | Frames 90 - 360) */}
-      <Sequence from={90} durationInFrames={270}>
+      {/* 4. Escena 2: Quiz + Temporizador (2.5s - 11.5s | Frames 75 - 345) */}
+      <Sequence from={75} durationInFrames={270}>
         <QuizScene 
           flagUrl={flagUrl} 
           hint={hint} 
@@ -48,14 +51,19 @@ export const QuizVideo = ({
         />
       </Sequence>
 
-      {/* 5. Escena 4: Revelación de Respuesta (12s - 16s | Frames 360 - 480) */}
-      <Sequence from={360} durationInFrames={120}>
+      {/* 5. Escena 3: Revelación de Respuesta (11.5s - 15.5s | Frames 345 - 465) */}
+      <Sequence from={345} durationInFrames={120}>
         <RevealScene 
           flagUrl={flagUrl} 
           hint={hint} 
           answer={answer} 
           funFact={funFact} 
         />
+      </Sequence>
+
+      {/* 6. Escena 4: Call to Action Final (15.5s - 18s | Frames 465 - 540) */}
+      <Sequence from={465} durationInFrames={75}>
+        <CtaScene ctaText={ctaText} />
       </Sequence>
     </AbsoluteFill>
   );

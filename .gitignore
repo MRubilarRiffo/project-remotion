@@ -2,7 +2,7 @@
 node_modules/
 
 # Archivos de renderizado y salida
-Videos Quiz/
+output/
 output_still.png
 out/
 build/
@@ -20,3 +20,5 @@ dist/
 .idea/
 .DS_Store
 Thumbs.db
+
+package-lock.json

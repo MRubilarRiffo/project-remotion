@@ -23,7 +23,7 @@ const start = async () => {
 
   const entryPoint = path.join(__dirname, "src", "Root.jsx");
   console.log(`📦 Empaquetando composición Remotion desde: ${entryPoint}...`);
-  
+
   // 1. Crear el bundle (compilación de webpack de la app de Remotion)
   const bundleLocation = await bundle({
     entryPoint,
@@ -75,6 +75,18 @@ const start = async () => {
 
       // 4. Renderizar el video a disco usando FFmpeg internamente
       console.log("⚡ Iniciando renderizado de frames y mezcla de audio con FFmpeg...");
+      // await renderMedia({
+      //   composition,
+      //   serveUrl: bundleLocation,
+      //   codec: "h264",
+      //   outputLocation: outputPath,
+      //   inputProps,
+      //   // Configuración para redes sociales (rápido y comprimido para móvil)
+      //   crf: 20, // Factor de compresión balanceado (calidad excelente / peso reducido)
+      //   pixelFormat: "yuv420p", // Formato de pixel compatible con la mayoría de reproductores móviles
+      //   concurrency: 1, // Previene colapsos de memoria en Chromium (Target closed)
+      //   timeoutInMilliseconds: 120000 // 2 minutos de timeout por seguridad
+      // });
       await renderMedia({
         composition,
         serveUrl: bundleLocation,
@@ -82,8 +94,16 @@ const start = async () => {
         outputLocation: outputPath,
         inputProps,
         // Configuración para redes sociales (rápido y comprimido para móvil)
-        crf: 20, // Factor de compresión balanceado (calidad excelente / peso reducido)
+        videoBitrate: "8M", // Reemplaza crf: 20 (obligatorio para aceleración por hardware)
         pixelFormat: "yuv420p", // Formato de pixel compatible con la mayoría de reproductores móviles
+        concurrency: 3, // Previene colapsos de memoria en Chromium (Target closed)
+        timeoutInMilliseconds: 120000, // 2 minutos de timeout por seguridad
+        // Habilitar aceleración de hardware para la codificación FFmpeg (si está disponible)
+        hardwareAcceleration: "if-possible",
+        // Habilitar GPU en Chromium para acelerar renderizado de frames y animaciones
+        chromiumOptions: {
+          gl: "angle", // Recomendado para Windows / desarrollo local
+        },
       });
 
       console.log(`✓ ¡Video renderizado con éxito! Guardado en: ${outputPath}`);

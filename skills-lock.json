@@ -6,6 +6,12 @@
       "sourceType": "github",
       "skillPath": "skills/remotion/SKILL.md",
       "computedHash": "d9457a606202a23c28b4c17b2611c65ecc09311ce46a5d93ffe8493d2e8ea4f3"
+    },
+    "tiktok-marketing": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "skillPath": "tiktok-marketing/SKILL.md",
+      "computedHash": "87bddd22d1924461e78bcb09c8d12d2b3a1c2698e889914a4cac4c24eee5da93"
     }
   }
 }

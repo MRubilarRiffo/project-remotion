@@ -74,6 +74,7 @@ export const RevealScene = ({ flagUrl, hint, answer, funFact }) => {
             isRevealed={true} // Forzar revelación
             index={index}
             revealFrame={0} // Se revela al inicio de la escena de inmediato
+            initialIntroDelay={0} // No animar la entrada del contenedor, ya está ahí
           />
         ))}
       </div>

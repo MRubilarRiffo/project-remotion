@@ -1,13 +1,13 @@
 import { spring, useCurrentFrame, useVideoConfig } from "remotion";
 import styles from "./LetterBox.module.css";
 
-export const LetterBox = ({ char, revealedChar, isRevealed, index, revealFrame }) => {
+export const LetterBox = ({ char, revealedChar, isRevealed, index, revealFrame, initialIntroDelay }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
   // Animación de entrada inicial del casillero (en la escena del Quiz)
   // El casillero aparece en el frame 100 con un desfase (stagger) de 3 frames por letra
-  const introDelay = 100 + index * 4;
+  const introDelay = initialIntroDelay !== undefined ? initialIntroDelay : (100 + index * 4);
   const introSpring = spring({
     frame: frame - introDelay,
     fps,

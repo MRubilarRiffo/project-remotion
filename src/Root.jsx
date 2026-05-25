@@ -8,13 +8,15 @@ export const RemotionRoot = () => {
       <Composition
         id="QuizVideo"
         component={QuizVideo}
-        durationInFrames={480} // 16 segundos a 30 fps
+        durationInFrames={540} // 18 segundos a 30 fps
         fps={30}
         width={1080}
         height={1920}
         defaultProps={{
           category: "países",
-          title: "🌎 ADIVINA EL PAÍS",
+          title: "¿QUÉ PAÍS ES?",
+          hookText: "¡Sólo el 1% adivina el país! 🌎",
+          ctaText: "¡Comenta tu respuesta! 👇",
           emoji: "🌎",
           answer: "CHILE",
           hint: "_ H _ L _",

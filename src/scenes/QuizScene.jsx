@@ -1,4 +1,4 @@
-import { useCurrentFrame, useVideoConfig, spring, interpolate, Img } from "remotion";
+import { useCurrentFrame, useVideoConfig, spring, interpolate, Img, Audio, Sequence } from "remotion";
 import { LetterBox } from "../components/LetterBox";
 import { Timer } from "../components/Timer";
 import styles from "./QuizScene.module.css";
@@ -26,6 +26,9 @@ export const QuizScene = ({ flagUrl, hint, answer, categoryTitle }) => {
 
   // El temporizador de 5s inicia en el frame 30 (1 segundo después de entrar a esta escena)
   const timerStartFrame = 30;
+
+  // Creamos un array de 8 ticks para que suenen cada segundo
+  const ticks = new Array(8).fill(true);
 
   return (
     <div className={styles.container}>
@@ -69,6 +72,13 @@ export const QuizScene = ({ flagUrl, hint, answer, categoryTitle }) => {
       <div className={styles.timerWrapper}>
         <Timer startFrame={timerStartFrame} durationSeconds={8} />
       </div>
+
+      {/* Sonidos de reloj (Tick-Tock simulado con pops suaves) */}
+      {ticks.map((_, index) => (
+        <Sequence key={index} from={timerStartFrame + index * fps} durationInFrames={fps} layout="none">
+          <Audio src="https://remotion.media/mouse-click.wav" volume={0.3} playbackRate={1.2} />
+        </Sequence>
+      ))}
     </div>
   );
 };

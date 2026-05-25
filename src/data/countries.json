@@ -25,5 +25,275 @@
     "hint": "J _ P _ _",
     "image": "https://flagcdn.com/w640/jp.png",
     "funFact": "¡Japón es conocido como el país del sol naciente!"
+  },
+  {
+    "id": 4,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "MEXICO",
+    "hint": "M _ _ I _ O",
+    "image": "https://flagcdn.com/w640/mx.png",
+    "funFact": "¡México tiene la pirámide más grande del mundo por volumen!"
+  },
+  {
+    "id": 5,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ARGENTINA",
+    "hint": "A _ _ E _ _ I _ _",
+    "image": "https://flagcdn.com/w640/ar.png",
+    "funFact": "¡Es el hogar del tango y del río más ancho del mundo!"
+  },
+  {
+    "id": 6,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "COLOMBIA",
+    "hint": "C _ L _ _ _ I _",
+    "image": "https://flagcdn.com/w640/co.png",
+    "funFact": "¡Es el segundo país más biodiverso del planeta!"
+  },
+  {
+    "id": 7,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ESPAÑA",
+    "hint": "E _ P _ _ A",
+    "image": "https://flagcdn.com/w640/es.png",
+    "funFact": "¡Es el país con la mayor superficie de viñedos del mundo!"
+  },
+  {
+    "id": 8,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "FRANCIA",
+    "hint": "F _ A _ C _ _",
+    "image": "https://flagcdn.com/w640/fr.png",
+    "funFact": "¡Es el destino turístico más visitado a nivel mundial!"
+  },
+  {
+    "id": 9,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ITALIA",
+    "hint": "I _ A _ I _",
+    "image": "https://flagcdn.com/w640/it.png",
+    "funFact": "¡Su territorio tiene forma de bota y es la cuna del Renacimiento!"
+  },
+  {
+    "id": 10,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ALEMANIA",
+    "hint": "A _ E _ _ N _ _",
+    "image": "https://flagcdn.com/w640/de.png",
+    "funFact": "¡Se estima que tiene más de 20.000 castillos en todo su territorio!"
+  },
+  {
+    "id": 11,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "CANADA",
+    "hint": "C _ N _ _ A",
+    "image": "https://flagcdn.com/w640/ca.png",
+    "funFact": "¡Tiene más lagos que el resto del mundo combinado!"
+  },
+  {
+    "id": 12,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "AUSTRALIA",
+    "hint": "A _ S _ R _ _ _ _",
+    "image": "https://flagcdn.com/w640/au.png",
+    "funFact": "¡Es el único país que también abarca todo un continente!"
+  },
+  {
+    "id": 13,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "PERU",
+    "hint": "P _ R _",
+    "image": "https://flagcdn.com/w640/pe.png",
+    "funFact": "¡Alberga a Machu Picchu, una de las siete maravillas del mundo moderno!"
+  },
+  {
+    "id": 14,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "INDIA",
+    "hint": "I _ D _ _",
+    "image": "https://flagcdn.com/w640/in.png",
+    "funFact": "¡Es el país más poblado del mundo y el lugar donde se inventó el ajedrez!"
+  },
+  {
+    "id": 15,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "CHINA",
+    "hint": "C _ _ N _",
+    "image": "https://flagcdn.com/w640/cn.png",
+    "funFact": "¡Inventaron el papel, la brújula, la pólvora y la imprenta!"
+  },
+  {
+    "id": 16,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "EGIPTO",
+    "hint": "E _ I _ T _",
+    "image": "https://flagcdn.com/w640/eg.png",
+    "funFact": "¡El río Nilo atraviesa sus tierras y sus milenarias pirámides!"
+  },
+  {
+    "id": 17,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "RUSIA",
+    "hint": "R _ S _ _",
+    "image": "https://flagcdn.com/w640/ru.png",
+    "funFact": "¡Es tan inmenso que su territorio abarca 11 zonas horarias diferentes!"
+  },
+  {
+    "id": 18,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "GRECIA",
+    "hint": "G _ E _ _ A",
+    "image": "https://flagcdn.com/w640/gr.png",
+    "funFact": "¡Es considerada la cuna de la democracia y de los Juegos Olímpicos!"
+  },
+  {
+    "id": 19,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "SUDAFRICA",
+    "hint": "S _ D _ F _ _ _ _",
+    "image": "https://flagcdn.com/w640/za.png",
+    "funFact": "¡Es el único país en el mundo que tiene tres ciudades capitales!"
+  },
+  {
+    "id": 20,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "KENIA",
+    "hint": "K _ _ I _",
+    "image": "https://flagcdn.com/w640/ke.png",
+    "funFact": "¡Es famosa mundialmente por la espectacular Gran Migración de vida silvestre!"
+  },
+  {
+    "id": 21,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "TAILANDIA",
+    "hint": "T _ _ L _ N _ _ _",
+    "image": "https://flagcdn.com/w640/th.png",
+    "funFact": "¡Conocida como el país de las sonrisas, nunca fue colonizada por europeos!"
+  },
+  {
+    "id": 22,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "MARRUECOS",
+    "hint": "M _ _ R _ E _ _ _",
+    "image": "https://flagcdn.com/w640/ma.png",
+    "funFact": "¡Alberga la universidad más antigua del mundo aún en funcionamiento!"
+  },
+  {
+    "id": 23,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "SUECIA",
+    "hint": "S _ E _ _ A",
+    "image": "https://flagcdn.com/w640/se.png",
+    "funFact": "¡Es el país de origen de la dinamita, los premios Nobel e IKEA!"
+  },
+  {
+    "id": 24,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "NORUEGA",
+    "hint": "N _ R _ E _ _",
+    "image": "https://flagcdn.com/w640/no.png",
+    "funFact": "¡Es uno de los mejores lugares del mundo para ver auroras boreales y fiordos!"
+  },
+  {
+    "id": 25,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "SUIZA",
+    "hint": "S _ _ Z _",
+    "image": "https://flagcdn.com/w640/ch.png",
+    "funFact": "¡Tiene miles de lagos, deliciosos chocolates y una famosa neutralidad!"
+  },
+  {
+    "id": 26,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "PORTUGAL",
+    "hint": "P _ R _ U _ _ _",
+    "image": "https://flagcdn.com/w640/pt.png",
+    "funFact": "¡Es uno de los países de Europa más antiguos conservando sus mismas fronteras!"
+  },
+  {
+    "id": 27,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "URUGUAY",
+    "hint": "U _ U _ _ A _",
+    "image": "https://flagcdn.com/w640/uy.png",
+    "funFact": "¡Fue el anfitrión y también el primer campeón en la historia de los mundiales de fútbol!"
+  },
+  {
+    "id": 28,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "VENEZUELA",
+    "hint": "V _ N _ _ U _ _ _",
+    "image": "https://flagcdn.com/w640/ve.png",
+    "funFact": "¡Alberga el Salto Ángel, que es la cascada más alta de todo el mundo!"
+  },
+  {
+    "id": 29,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "BOLIVIA",
+    "hint": "B _ L _ _ _ A",
+    "image": "https://flagcdn.com/w640/bo.png",
+    "funFact": "¡Tiene el espejo natural más grande del mundo en el Salar de Uyuni!"
+  },
+  {
+    "id": 30,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "CUBA",
+    "hint": "C _ _ A",
+    "image": "https://flagcdn.com/w640/cu.png",
+    "funFact": "¡Es la isla más grande e importante de todo el Mar Caribe!"
+  },
+  {
+    "id": 31,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ECUADOR",
+    "hint": "E _ U _ _ O _",
+    "image": "https://flagcdn.com/w640/ec.png",
+    "funFact": "¡Su nombre se debe a la línea imaginaria que divide el planeta en dos hemisferios!"
+  },
+  {
+    "id": 32,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "ISLANDIA",
+    "hint": "I _ L _ _ _ I _",
+    "image": "https://flagcdn.com/w640/is.png",
+    "funFact": "¡Es conocida como la tierra de hielo y fuego, y curiosamente no tiene mosquitos!"
+  },
+  {
+    "id": 33,
+    "category": "países",
+    "title": "🌎 ADIVINA EL PAÍS",
+    "answer": "MADAGASCAR",
+    "hint": "M _ D _ _ _ S _ _ _",
+    "image": "https://flagcdn.com/w640/mg.png",
+    "funFact": "¡Más del 90% de su flora y fauna silvestre no se encuentra en ningún otro lugar!"
   }
 ]
