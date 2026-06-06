@@ -5,7 +5,7 @@
   "main": "src/Root.jsx",
   "type": "module",
   "scripts": {
-    "start": "remotion studio",
+    "start": "remotion studio src/Root.jsx",
     "render": "remotion render QuizVideo out.mp4",
     "render-all": "node render-pipeline.js"
   },

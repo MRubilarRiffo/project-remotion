@@ -5,7 +5,7 @@ export const IntroScene = ({ hookText, emoji }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // Entrada más rápida: frame 0 a 15
+  // Entrada más rápida: frame 0 a 15 con pop-in agresivo
   const introSpring = spring({
     frame,
     fps,
@@ -16,27 +16,21 @@ export const IntroScene = ({ hookText, emoji }) => {
     },
   });
 
-  // Salida rápida: frame 60 a 75
-  const outroSpring = spring({
-    frame: frame - 60,
-    fps,
-    config: {
-      damping: 12,
-      mass: 0.5,
-      stiffness: 180,
-    },
-  });
+  const scale = introSpring;
+  const translateY = interpolate(introSpring, [0, 1], [-800, 0]);
+  const rotate = interpolate(introSpring, [0, 1], [-15, 0]);
 
-  const scale = introSpring * (1 - outroSpring);
-
-  const translateY = interpolate(introSpring, [0, 1], [-800, 0]) + 
-                     interpolate(outroSpring, [0, 1], [0, 1200]);
-
-  const rotate = interpolate(introSpring, [0, 1], [-15, 0]) + 
-                 interpolate(outroSpring, [0, 1], [0, 25]);
+  // Movimiento dinámico continuo para que el fondo no sea estático
+  const bgScale = 1 + (frame * 0.002);
+  const bgRotate = frame * 0.05;
 
   return (
-    <div className={styles.container}>
+    <div 
+      className={styles.container}
+      style={{
+        transform: `scale(${bgScale}) rotate(${bgRotate}deg)`
+      }}
+    >
       <div 
         className={styles.titleContainer}
         style={{

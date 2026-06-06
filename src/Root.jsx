@@ -1,27 +1,28 @@
 import { Composition, registerRoot } from "remotion";
-import { QuizVideo } from "./QuizVideo";
+
+import { MathQuizVideo } from "./MathQuizVideo";
 import "./index.css";
 
 export const RemotionRoot = () => {
   return (
     <>
+
       <Composition
-        id="QuizVideo"
-        component={QuizVideo}
-        durationInFrames={540} // 18 segundos a 30 fps
+        id="MathQuizVideo"
+        component={MathQuizVideo}
+        durationInFrames={180} // 6 segundos a 30 fps
         fps={30}
         width={1080}
         height={1920}
         defaultProps={{
-          category: "países",
-          title: "¿QUÉ PAÍS ES?",
-          hookText: "¡Sólo el 1% adivina el país! 🌎",
+          category: "matemáticas",
+          title: "🧠 RETO MATEMÁTICO",
+          hookText: "¡Sólo el 1% resuelve esto! 🤯",
           ctaText: "¡Comenta tu respuesta! 👇",
-          emoji: "🌎",
-          answer: "CHILE",
-          hint: "_ H _ L _",
-          flagUrl: "https://flagcdn.com/w640/cl.png",
-          funFact: "¡Chile es el país más largo y angosto del mundo!"
+          emoji: "🧠",
+          equation: "5 + 5 x 5 = ?",
+          options: ["A) 30", "B) 50", "C) 25"],
+          videoName: "287447_medium.mp4"
         }}
       />
     </>

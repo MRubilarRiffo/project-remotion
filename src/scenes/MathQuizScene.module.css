@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top: 250px;
+}
+
+.categoryTitle {
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 900;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.equationContainer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 40px 80px;
+  margin-bottom: 80px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.equationText {
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 900;
+  margin: 0;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.timerWrapper {
+  position: absolute;
+  bottom: 250px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

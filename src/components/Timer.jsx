@@ -2,7 +2,7 @@ import { useCurrentFrame, useVideoConfig, spring, interpolate, Sequence } from "
 import { Audio } from "@remotion/media";
 import styles from "./Timer.module.css";
 
-export const Timer = ({ startFrame, durationSeconds = 5 }) => {
+export const Timer = ({ startFrame, durationSeconds = 3 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 

@@ -1,0 +1,15 @@
+[
+  {
+    "id": 15,
+    "category": "matemáticas",
+    "title": "🧠 RETO MATEMÁTICO",
+    "equation": "14 + 2 x (8 - 5) = ?",
+    "options": [
+      "A) 20",
+      "B) 48",
+      "C) 16"
+    ],
+    "answerIndex": 0,
+    "funFact": "Primero 8 - 5 = 3, luego 2 x 3 = 6."
+  }
+]

@@ -10,8 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // Lista de archivos de bases de datos para renderizar por lotes
 const DATA_SOURCES = [
-  { file: "./src/data/countries.json", category: "países" },
-  { file: "./src/data/animals.json", category: "animales" }
+  { file: "./src/data/math.json", category: "matemáticas", compId: "MathQuizVideo" }
 ];
 
 const start = async () => {
@@ -31,12 +30,11 @@ const start = async () => {
   });
   console.log("✓ Proyecto empaquetado con éxito.");
 
-  // Composición ID que registramos en Root.jsx
-  const compositionId = "QuizVideo";
-
   // 2. Iterar por cada archivo de datos configurado
   for (const source of DATA_SOURCES) {
     const dataPath = path.resolve(__dirname, source.file);
+    const compositionId = source.compId;
+
     if (!fs.existsSync(dataPath)) {
       console.warn(`⚠️ Archivo de datos no encontrado: ${source.file}. Saltando...`);
       continue;
@@ -47,22 +45,28 @@ const start = async () => {
 
     for (let index = 0; index < questions.length; index++) {
       const q = questions[index];
-      const safeAnswerName = q.answer.toLowerCase().replace(/[^a-z0-9]/g, "_");
+      // Si no hay 'answer', usamos el ID o el nombre de la ecuación para el archivo
+      const answerText = q.answer || `math_id_${q.id}`;
+      const safeAnswerName = answerText.toLowerCase().replace(/[^a-z0-9]/g, "_");
       const outputFilename = `quiz_${q.category || "general"}_${safeAnswerName}.mp4`;
       const outputPath = path.join(outputDir, outputFilename);
 
-      console.log(`\n🎬 Generando video [${index + 1}/${questions.length}]: ${outputFilename}`);
-      console.log(`💡 Pista: "${q.hint}" | Respuesta: "${q.answer}"`);
+      console.log(`\n🎬 Generando video [${index + 1}/${questions.length}]: ${outputFilename} usando la composición ${compositionId}`);
 
       // Configurar inputProps dinámicos para este renderizado específico
       const inputProps = {
         category: q.category || "general",
         title: q.title || "ADIVINA",
+        hookText: q.hookText, // Se agrega para que sea variable desde el JSON
         emoji: q.emoji || "❓",
         answer: q.answer,
         hint: q.hint,
         flagUrl: q.flag || q.image, // Soporta ambas llaves
-        funFact: q.funFact || ""
+        funFact: q.funFact || "",
+        // Propiedades específicas del Quiz Matemático
+        equation: q.equation,
+        options: q.options,
+        answerIndex: q.answerIndex
       };
 
       // 3. Seleccionar la composición con las props específicas
