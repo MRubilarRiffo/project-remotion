@@ -1,0 +1,41 @@
+.timerContainer {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleBackground {
+  fill: rgba(255, 255, 255, 0.2);
+}
+
+.circleProgress {
+  fill: none;
+  stroke: #ff5252;
+  stroke-width: 12px;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.innerCircle {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle at 30% 30%, #ff5252 0%, #c62828 100%);
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  font-family: 'Lilita One', 'Fredoka', sans-serif;
+  font-size: 75px;
+  color: #ffffff;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}

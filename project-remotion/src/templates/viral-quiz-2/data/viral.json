@@ -1,0 +1,58 @@
+[
+  {
+    "id": 3,
+    "category": "historia",
+    "question": "¿En qué año llegó el hombre a la luna por primera vez?",
+    "options": [
+      "A) 1969",
+      "B) 1959",
+      "C) 1979"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "img3.png",
+    "backgroundColor": "#2196F3",
+    "audioFile": "q3.wav"
+  },
+  {
+    "id": 7,
+    "category": "literatura",
+    "question": "¿Quién escribió Don Quijote de la Mancha?",
+    "options": [
+      "A) García Márquez",
+      "B) Miguel de Cervantes",
+      "C) Jorge Luis Borges"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "img7.png",
+    "backgroundColor": "#795548",
+    "audioFile": "q7.wav"
+  },
+  {
+    "id": 8,
+    "category": "ciencia",
+    "question": "¿Qué gas respiran las plantas?",
+    "options": [
+      "A) Oxígeno",
+      "B) Nitrógeno",
+      "C) Dióxido de Carbono"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "img8.png",
+    "backgroundColor": "#8BC34A",
+    "audioFile": "q8.wav"
+  },
+  {
+    "id": 9,
+    "category": "geografia",
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "options": [
+      "A) Mónaco",
+      "B) Ciudad del Vaticano",
+      "C) San Marino"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "img9.png",
+    "backgroundColor": "#00BCD4",
+    "audioFile": "q9.wav"
+  }
+]

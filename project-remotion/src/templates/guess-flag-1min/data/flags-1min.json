@@ -1,0 +1,442 @@
+[
+  {
+    "id": "video_1min_01",
+    "category": "banderas_1min",
+    "title": "Reto 10 Banderas - Parte 1",
+    "background": "templates/guess-flag/video/330026_medium.mp4",
+    "flags": [
+      {
+        "id": "canada",
+        "answer": "Canada",
+        "flag": "https://flagcdn.com/w640/ca.png",
+        "hint": "C_N__A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 1 🧠"
+      },
+      {
+        "id": "francia",
+        "answer": "Francia",
+        "flag": "https://flagcdn.com/w640/fr.png",
+        "hint": "F_A____",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 2 ⏳"
+      },
+      {
+        "id": "japon",
+        "answer": "Japon",
+        "flag": "https://flagcdn.com/w640/jp.png",
+        "hint": "J_P__",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 3 🧠"
+      },
+      {
+        "id": "alemania",
+        "answer": "Alemania",
+        "flag": "https://flagcdn.com/w640/de.png",
+        "hint": "A_E__N__",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 4 ⏳"
+      },
+      {
+        "id": "mexico",
+        "answer": "Mexico",
+        "flag": "https://flagcdn.com/w640/mx.png",
+        "hint": "M_X__O",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 5 🧠"
+      },
+      {
+        "id": "argentina",
+        "answer": "Argentina",
+        "flag": "https://flagcdn.com/w640/ar.png",
+        "hint": "A____N__A",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 6 ⏳"
+      },
+      {
+        "id": "brasil",
+        "answer": "Brasil",
+        "flag": "https://flagcdn.com/w640/br.png",
+        "hint": "B___I_",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 7 🧠"
+      },
+      {
+        "id": "colombia",
+        "answer": "Colombia",
+        "flag": "https://flagcdn.com/w640/co.png",
+        "hint": "C_L____A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 8 ⏳"
+      },
+      {
+        "id": "australia",
+        "answer": "Australia",
+        "flag": "https://flagcdn.com/w640/au.png",
+        "hint": "A_S_____A",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 9 🧠"
+      },
+      {
+        "id": "espana",
+        "answer": "Espana",
+        "flag": "https://flagcdn.com/w640/es.png",
+        "hint": "E_P___",
+        "audioFile": "shock.wav",
+        "hookText": "¡ÚLTIMA BANDERA! 🌎"
+      }
+    ]
+  },
+  {
+    "id": "video_1min_02",
+    "category": "banderas_1min",
+    "title": "Reto 10 Banderas - Parte 2",
+    "background": "templates/guess-flag/video/330026_medium.mp4",
+    "flags": [
+      {
+        "id": "mexico",
+        "answer": "Mexico",
+        "flag": "https://flagcdn.com/w640/mx.png",
+        "hint": "M_X__O",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 1 🧠"
+      },
+      {
+        "id": "japon",
+        "answer": "Japon",
+        "flag": "https://flagcdn.com/w640/jp.png",
+        "hint": "J_P__",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 2 ⏳"
+      },
+      {
+        "id": "francia",
+        "answer": "Francia",
+        "flag": "https://flagcdn.com/w640/fr.png",
+        "hint": "F_A____",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 3 🧠"
+      },
+      {
+        "id": "espana",
+        "answer": "Espana",
+        "flag": "https://flagcdn.com/w640/es.png",
+        "hint": "E_P___",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 4 ⏳"
+      },
+      {
+        "id": "argentina",
+        "answer": "Argentina",
+        "flag": "https://flagcdn.com/w640/ar.png",
+        "hint": "A____N__A",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 5 🧠"
+      },
+      {
+        "id": "australia",
+        "answer": "Australia",
+        "flag": "https://flagcdn.com/w640/au.png",
+        "hint": "A_S_____A",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 6 ⏳"
+      },
+      {
+        "id": "brasil",
+        "answer": "Brasil",
+        "flag": "https://flagcdn.com/w640/br.png",
+        "hint": "B___I_",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 7 🧠"
+      },
+      {
+        "id": "alemania",
+        "answer": "Alemania",
+        "flag": "https://flagcdn.com/w640/de.png",
+        "hint": "A_E__N__",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 8 ⏳"
+      },
+      {
+        "id": "colombia",
+        "answer": "Colombia",
+        "flag": "https://flagcdn.com/w640/co.png",
+        "hint": "C_L____A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 9 🧠"
+      },
+      {
+        "id": "canada",
+        "answer": "Canada",
+        "flag": "https://flagcdn.com/w640/ca.png",
+        "hint": "C_N__A",
+        "audioFile": "shock.wav",
+        "hookText": "¡ÚLTIMA BANDERA! 🌎"
+      }
+    ]
+  },
+  {
+    "id": "video_1min_03",
+    "category": "banderas_1min",
+    "title": "Reto 10 Banderas - Parte 3",
+    "background": "templates/guess-flag/video/330026_medium.mp4",
+    "flags": [
+      {
+        "id": "japon",
+        "answer": "Japon",
+        "flag": "https://flagcdn.com/w640/jp.png",
+        "hint": "J_P__",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 1 🧠"
+      },
+      {
+        "id": "canada",
+        "answer": "Canada",
+        "flag": "https://flagcdn.com/w640/ca.png",
+        "hint": "C_N__A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 2 ⏳"
+      },
+      {
+        "id": "mexico",
+        "answer": "Mexico",
+        "flag": "https://flagcdn.com/w640/mx.png",
+        "hint": "M_X__O",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 3 🧠"
+      },
+      {
+        "id": "argentina",
+        "answer": "Argentina",
+        "flag": "https://flagcdn.com/w640/ar.png",
+        "hint": "A____N__A",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 4 ⏳"
+      },
+      {
+        "id": "francia",
+        "answer": "Francia",
+        "flag": "https://flagcdn.com/w640/fr.png",
+        "hint": "F_A____",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 5 🧠"
+      },
+      {
+        "id": "brasil",
+        "answer": "Brasil",
+        "flag": "https://flagcdn.com/w640/br.png",
+        "hint": "B___I_",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 6 ⏳"
+      },
+      {
+        "id": "australia",
+        "answer": "Australia",
+        "flag": "https://flagcdn.com/w640/au.png",
+        "hint": "A_S_____A",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 7 🧠"
+      },
+      {
+        "id": "colombia",
+        "answer": "Colombia",
+        "flag": "https://flagcdn.com/w640/co.png",
+        "hint": "C_L____A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 8 ⏳"
+      },
+      {
+        "id": "espana",
+        "answer": "Espana",
+        "flag": "https://flagcdn.com/w640/es.png",
+        "hint": "E_P___",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 9 🧠"
+      },
+      {
+        "id": "alemania",
+        "answer": "Alemania",
+        "flag": "https://flagcdn.com/w640/de.png",
+        "hint": "A_E__N__",
+        "audioFile": "urgency.wav",
+        "hookText": "¡ÚLTIMA BANDERA! 🌎"
+      }
+    ]
+  },
+  {
+    "id": "video_1min_04",
+    "category": "banderas_1min",
+    "title": "Reto 10 Banderas - Parte 4",
+    "background": "templates/guess-flag/video/330026_medium.mp4",
+    "flags": [
+      {
+        "id": "canada",
+        "answer": "Canada",
+        "flag": "https://flagcdn.com/w640/ca.png",
+        "hint": "C_N__A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 1 🧠"
+      },
+      {
+        "id": "brasil",
+        "answer": "Brasil",
+        "flag": "https://flagcdn.com/w640/br.png",
+        "hint": "B___I_",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 2 ⏳"
+      },
+      {
+        "id": "francia",
+        "answer": "Francia",
+        "flag": "https://flagcdn.com/w640/fr.png",
+        "hint": "F_A____",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 3 🧠"
+      },
+      {
+        "id": "japon",
+        "answer": "Japon",
+        "flag": "https://flagcdn.com/w640/jp.png",
+        "hint": "J_P__",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 4 ⏳"
+      },
+      {
+        "id": "espana",
+        "answer": "Espana",
+        "flag": "https://flagcdn.com/w640/es.png",
+        "hint": "E_P___",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 5 🧠"
+      },
+      {
+        "id": "alemania",
+        "answer": "Alemania",
+        "flag": "https://flagcdn.com/w640/de.png",
+        "hint": "A_E__N__",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 6 ⏳"
+      },
+      {
+        "id": "argentina",
+        "answer": "Argentina",
+        "flag": "https://flagcdn.com/w640/ar.png",
+        "hint": "A____N__A",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 7 🧠"
+      },
+      {
+        "id": "colombia",
+        "answer": "Colombia",
+        "flag": "https://flagcdn.com/w640/co.png",
+        "hint": "C_L____A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 8 ⏳"
+      },
+      {
+        "id": "mexico",
+        "answer": "Mexico",
+        "flag": "https://flagcdn.com/w640/mx.png",
+        "hint": "M_X__O",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 9 🧠"
+      },
+      {
+        "id": "australia",
+        "answer": "Australia",
+        "flag": "https://flagcdn.com/w640/au.png",
+        "hint": "A_S_____A",
+        "audioFile": "urgency.wav",
+        "hookText": "¡ÚLTIMA BANDERA! 🌎"
+      }
+    ]
+  },
+  {
+    "id": "video_1min_05",
+    "category": "banderas_1min",
+    "title": "Reto 10 Banderas - Parte 5",
+    "background": "templates/guess-flag/video/330026_medium.mp4",
+    "flags": [
+      {
+        "id": "canada",
+        "answer": "Canada",
+        "flag": "https://flagcdn.com/w640/ca.png",
+        "hint": "C_N__A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 1 🧠"
+      },
+      {
+        "id": "alemania",
+        "answer": "Alemania",
+        "flag": "https://flagcdn.com/w640/de.png",
+        "hint": "A_E__N__",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 2 ⏳"
+      },
+      {
+        "id": "australia",
+        "answer": "Australia",
+        "flag": "https://flagcdn.com/w640/au.png",
+        "hint": "A_S_____A",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 3 🧠"
+      },
+      {
+        "id": "francia",
+        "answer": "Francia",
+        "flag": "https://flagcdn.com/w640/fr.png",
+        "hint": "F_A____",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 4 ⏳"
+      },
+      {
+        "id": "colombia",
+        "answer": "Colombia",
+        "flag": "https://flagcdn.com/w640/co.png",
+        "hint": "C_L____A",
+        "audioFile": "shock.wav",
+        "hookText": "BANDERA 5 🧠"
+      },
+      {
+        "id": "mexico",
+        "answer": "Mexico",
+        "flag": "https://flagcdn.com/w640/mx.png",
+        "hint": "M_X__O",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 6 ⏳"
+      },
+      {
+        "id": "japon",
+        "answer": "Japon",
+        "flag": "https://flagcdn.com/w640/jp.png",
+        "hint": "J_P__",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 7 🧠"
+      },
+      {
+        "id": "brasil",
+        "answer": "Brasil",
+        "flag": "https://flagcdn.com/w640/br.png",
+        "hint": "B___I_",
+        "audioFile": "urgency.wav",
+        "hookText": "BANDERA 8 ⏳"
+      },
+      {
+        "id": "argentina",
+        "answer": "Argentina",
+        "flag": "https://flagcdn.com/w640/ar.png",
+        "hint": "A____N__A",
+        "audioFile": "challenge.wav",
+        "hookText": "BANDERA 9 🧠"
+      },
+      {
+        "id": "espana",
+        "answer": "Espana",
+        "flag": "https://flagcdn.com/w640/es.png",
+        "hint": "E_P___",
+        "audioFile": "shock.wav",
+        "hookText": "¡ÚLTIMA BANDERA! 🌎"
+      }
+    ]
+  }
+]

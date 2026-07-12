@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "category": "lógica",
+    "question": "¿Cuántos meses tienen 28 días?",
+    "options": [
+      "A) Solo 1",
+      "B) Todos (12)",
+      "C) 11 meses"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q1.png",
+    "backgroundColor": "#FF5722",
+    "audioFile": "q1.wav"
+  },
+  {
+    "id": 2,
+    "category": "botánica",
+    "question": "¿El aguacate (palta) es una fruta o una verdura?",
+    "options": [
+      "A) Verdura",
+      "B) Fruta",
+      "C) Legumbre"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q2.png",
+    "backgroundColor": "#4CAF50",
+    "audioFile": "q2.wav"
+  },
+  {
+    "id": 3,
+    "category": "ciencia",
+    "question": "¿De qué color es un espejo perfecto?",
+    "options": [
+      "A) Plateado",
+      "B) Blanco",
+      "C) Verde"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q3.png",
+    "backgroundColor": "#9C27B0",
+    "audioFile": "q3.wav"
+  },
+  {
+    "id": 4,
+    "category": "física",
+    "question": "¿Qué pesa más, un kilo de algodón o un kilo de hierro?",
+    "options": [
+      "A) El hierro",
+      "B) El algodón",
+      "C) Pesan exactamente lo mismo"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q4.png",
+    "backgroundColor": "#607D8B",
+    "audioFile": "q4.wav"
+  },
+  {
+    "id": 5,
+    "category": "animales",
+    "question": "¿Cuál es el animal más letal para el ser humano?",
+    "options": [
+      "A) El tiburón",
+      "B) El león",
+      "C) El mosquito"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q5.png",
+    "backgroundColor": "#F44336",
+    "audioFile": "q5.wav"
+  },
+  {
+    "id": 6,
+    "category": "dinosaurios",
+    "question": "¿Cuál de estos animales NO es un dinosaurio?",
+    "options": [
+      "A) T-Rex",
+      "B) Pterodáctilo",
+      "C) Triceratops"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q6.png",
+    "backgroundColor": "#795548",
+    "audioFile": "q6.wav"
+  },
+  {
+    "id": 7,
+    "category": "ciencia",
+    "question": "¿El agua moja?",
+    "options": [
+      "A) Sí, obviamente",
+      "B) No, hace que otras cosas se mojen",
+      "C) Solo si está fría"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q7.png",
+    "backgroundColor": "#03A9F4",
+    "audioFile": "q7.wav"
+  },
+  {
+    "id": 8,
+    "category": "historia",
+    "question": "¿En qué país se inventaron las papas fritas (french fries)?",
+    "options": [
+      "A) Francia",
+      "B) Estados Unidos",
+      "C) Bélgica"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q8.png",
+    "backgroundColor": "#FFC107",
+    "audioFile": "q8.wav"
+  },
+  {
+    "id": 9,
+    "category": "matemáticas",
+    "question": "¿Qué número NO existe en los números romanos?",
+    "options": [
+      "A) El 10.000",
+      "B) El Cero (0)",
+      "C) El 5.000"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q9.png",
+    "backgroundColor": "#3F51B5",
+    "audioFile": "q9.wav"
+  },
+  {
+    "id": 10,
+    "category": "animales",
+    "question": "¿Por qué parte del cuerpo sudan los perros?",
+    "options": [
+      "A) Por la lengua",
+      "B) Por las patas (almohadillas)",
+      "C) Por la nariz"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q10.png",
+    "backgroundColor": "#8BC34A",
+    "audioFile": "q10.wav"
+  }
+]

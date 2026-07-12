@@ -1,0 +1,93 @@
+[
+  {
+    "id": 4,
+    "category": "matemáticas",
+    "equation": "10 - 10 x 10 + 10 = ?",
+    "options": [
+      "A) -80",
+      "B) 0",
+      "C) 10"
+    ],
+    "answerIndex": 0,
+    "backgroundColor": "#f59e0b",
+    "audioFile": "q4.wav"
+  },
+  {
+    "id": 5,
+    "category": "matemáticas",
+    "equation": "7 + 7 ÷ 7 + 7 x 7 = ?",
+    "options": [
+      "A) 57",
+      "B) 56",
+      "C) 14"
+    ],
+    "answerIndex": 0,
+    "backgroundColor": "#8b5cf6",
+    "audioFile": "q5.wav"
+  },
+  {
+    "id": 6,
+    "category": "matemáticas",
+    "equation": "1 + 1 + 1 - 1 x 0 = ?",
+    "options": [
+      "A) 3",
+      "B) 0",
+      "C) 2"
+    ],
+    "answerIndex": 0,
+    "backgroundColor": "#ec4899",
+    "audioFile": "q6.wav"
+  },
+  {
+    "id": 7,
+    "category": "matemáticas",
+    "equation": "8 - 8 x 0 + 8 ÷ 8 = ?",
+    "options": [
+      "A) 1",
+      "B) 9",
+      "C) 0"
+    ],
+    "answerIndex": 1,
+    "backgroundColor": "#14b8a6",
+    "audioFile": "q7.wav"
+  },
+  {
+    "id": 8,
+    "category": "matemáticas",
+    "equation": "4 x 4 - 4 ÷ 4 = ?",
+    "options": [
+      "A) 0",
+      "B) 15",
+      "C) 3"
+    ],
+    "answerIndex": 1,
+    "backgroundColor": "#f97316",
+    "audioFile": "q8.wav"
+  },
+  {
+    "id": 9,
+    "category": "matemáticas",
+    "equation": "6 + 6 x 0 - 6 ÷ 6 = ?",
+    "options": [
+      "A) 5",
+      "B) 11",
+      "C) -1"
+    ],
+    "answerIndex": 0,
+    "backgroundColor": "#6366f1",
+    "audioFile": "q9.wav"
+  },
+  {
+    "id": 10,
+    "category": "matemáticas",
+    "equation": "9 - 9 x 9 + 9 = ?",
+    "options": [
+      "A) 0",
+      "B) -63",
+      "C) 9"
+    ],
+    "answerIndex": 1,
+    "backgroundColor": "#06b6d4",
+    "audioFile": "q10.wav"
+  }
+]

@@ -21,4 +21,7 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Configuración adicional del proyecto
 package-lock.json
+skills-lock.json
+

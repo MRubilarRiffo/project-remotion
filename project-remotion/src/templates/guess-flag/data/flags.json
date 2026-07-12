@@ -1,0 +1,102 @@
+[
+  {
+    "id": "canada",
+    "category": "banderas",
+    "answer": "Canada",
+    "flag": "https://flagcdn.com/w640/ca.png",
+    "hint": "C_N__A",
+    "audioFile": "shock.wav",
+    "hookText": "EL 99% FALLA ESTA BANDERA 🌎",
+    "background": "templates/guess-flag/video/330026_medium.mp4"
+  },
+  {
+    "id": "mexico",
+    "category": "banderas",
+    "answer": "Mexico",
+    "flag": "https://flagcdn.com/w640/mx.png",
+    "hint": "M_X__O",
+    "audioFile": "challenge.wav",
+    "hookText": "¡SOLO PARA GENIOS! 🧠",
+    "background": "templates/guess-flag/video/330028_medium.mp4"
+  },
+  {
+    "id": "brasil",
+    "category": "banderas",
+    "answer": "Brasil",
+    "flag": "https://flagcdn.com/w640/br.png",
+    "hint": "B___I_",
+    "audioFile": "urgency.wav",
+    "hookText": "¿ADIVINAS EL PAÍS? ⏳",
+    "background": "templates/guess-flag/video/337736_medium.mp4"
+  },
+  {
+    "id": "espana",
+    "category": "banderas",
+    "answer": "Espana",
+    "flag": "https://flagcdn.com/w640/es.png",
+    "hint": "E_P___",
+    "audioFile": "shock.wav",
+    "hookText": "EL 99% FALLA ESTA BANDERA 🌎",
+    "background": "templates/guess-flag/video/346444_medium.mp4"
+  },
+  {
+    "id": "argentina",
+    "category": "banderas",
+    "answer": "Argentina",
+    "flag": "https://flagcdn.com/w640/ar.png",
+    "hint": "A____N__A",
+    "audioFile": "challenge.wav",
+    "hookText": "¡SOLO PARA GENIOS! 🧠",
+    "background": "templates/guess-flag/video/330026_medium.mp4"
+  },
+  {
+    "id": "alemania",
+    "category": "banderas",
+    "answer": "Alemania",
+    "flag": "https://flagcdn.com/w640/de.png",
+    "hint": "A_E__N__",
+    "audioFile": "urgency.wav",
+    "hookText": "¿ADIVINAS EL PAÍS? ⏳",
+    "background": "templates/guess-flag/video/330028_medium.mp4"
+  },
+  {
+    "id": "francia",
+    "category": "banderas",
+    "answer": "Francia",
+    "flag": "https://flagcdn.com/w640/fr.png",
+    "hint": "F_A____",
+    "audioFile": "shock.wav",
+    "hookText": "EL 99% FALLA ESTA BANDERA 🌎",
+    "background": "templates/guess-flag/video/337736_medium.mp4"
+  },
+  {
+    "id": "japon",
+    "category": "banderas",
+    "answer": "Japon",
+    "flag": "https://flagcdn.com/w640/jp.png",
+    "hint": "J_P__",
+    "audioFile": "challenge.wav",
+    "hookText": "¡SOLO PARA GENIOS! 🧠",
+    "background": "templates/guess-flag/video/346444_medium.mp4"
+  },
+  {
+    "id": "australia",
+    "category": "banderas",
+    "answer": "Australia",
+    "flag": "https://flagcdn.com/w640/au.png",
+    "hint": "A_S_____A",
+    "audioFile": "urgency.wav",
+    "hookText": "¿ADIVINAS EL PAÍS? ⏳",
+    "background": "templates/guess-flag/video/330026_medium.mp4"
+  },
+  {
+    "id": "colombia",
+    "category": "banderas",
+    "answer": "Colombia",
+    "flag": "https://flagcdn.com/w640/co.png",
+    "hint": "C_L____A",
+    "audioFile": "shock.wav",
+    "hookText": "EL 99% FALLA ESTA BANDERA 🌎",
+    "background": "templates/guess-flag/video/330028_medium.mp4"
+  }
+]
