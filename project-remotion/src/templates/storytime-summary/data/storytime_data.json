@@ -1,0 +1,604 @@
+[
+  {
+    "id": "perfume_cap_1_completo",
+    "category": "literatura_gothica",
+    "title": "El Perfume - Patrick Süskind",
+    "chapterTitle": "CAPÍTULO 1: EL NACIMIENTO DE GRENOUILLE",
+    "backgroundAudio": "",
+    "voiceoverAudio": "",
+    "scenes": [
+      {
+        "durationInSeconds": 8.2,
+        "image": "templates/storytime-summary/images/scene_1.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_1.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_vine_boom.wav",
+        "sfxVolume": 0.5,
+        "subtitle": "En el siglo XVIII vivió en Francia uno de los hombres más geniales y abominables de su época: Jean-Baptiste Grenouille.",
+        "highlights": [
+          "XVIII",
+          "geniales",
+          "abominables",
+          "Jean-Baptiste",
+          "Grenouille"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 246
+      },
+      {
+        "durationInSeconds": 8.48,
+        "image": "templates/storytime-summary/images/scene_2.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_2.wav",
+        "subtitle": "Si su nombre ha caído en el olvido, a diferencia de monstruos como De Sade, Fouché o Napoleón, no es por falta de impiedad...",
+        "highlights": [
+          "olvido",
+          "monstruos",
+          "Sade",
+          "Napoleón",
+          "impiedad"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 254
+      },
+      {
+        "durationInSeconds": 8.08,
+        "image": "templates/storytime-summary/images/scene_7.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_3.wav",
+        "subtitle": "...sino porque su genio y su única ambición se limitaban a un terreno efímero que no deja huella: el rey del mundo de los olores.",
+        "highlights": [
+          "genio",
+          "ambición",
+          "efímero",
+          "rey",
+          "olores"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 242
+      },
+      {
+        "durationInSeconds": 8,
+        "image": "templates/storytime-summary/images/scene_2.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_4.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_whoosh.wav",
+        "sfxVolume": 0.4,
+        "subtitle": "En aquella época reinaba en las ciudades de Europa un hedor insoportable y apenas concebible para el hombre moderno.",
+        "highlights": [
+          "reinaba",
+          "hedor",
+          "insoportable",
+          "concebible",
+          "moderno"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 240
+      },
+      {
+        "durationInSeconds": 8,
+        "image": "templates/storytime-summary/images/scene_8.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_5.wav",
+        "subtitle": "Las calles apestaban a estiércol y orina; los aposentos sin ventilación olían a polvo enmohecido y sábanas grasientas.",
+        "highlights": [
+          "apestaban",
+          "estiércol",
+          "orina",
+          "enmohecido",
+          "grasientas"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 240
+      },
+      {
+        "durationInSeconds": 9.04,
+        "image": "templates/storytime-summary/images/scene_7.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_6.wav",
+        "subtitle": "Las chimeneas exhalaban azufre corrosivo, las curtidurías lejías cáusticas, y en los mataderos se pudría la sangre coagulada.",
+        "highlights": [
+          "azufre",
+          "corrosivo",
+          "lejías",
+          "mataderos",
+          "coagulada"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 271
+      },
+      {
+        "durationInSeconds": 8.22,
+        "image": "templates/storytime-summary/images/scene_8.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_7.wav",
+        "subtitle": "Hombres y mujeres apestaban a sudor, alientos a cebolla, dientes infectados y a tumores malignos en cuerpos en decadencia.",
+        "highlights": [
+          "sudor",
+          "cebolla",
+          "infectados",
+          "tumores",
+          "decadencia"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 247
+      },
+      {
+        "durationInSeconds": 8,
+        "image": "templates/storytime-summary/images/scene_2.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_8.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_ding.wav",
+        "sfxVolume": 0.3,
+        "subtitle": "Apestaba el campesino como el clérigo, el artesano como el rey de Francia; apestaba la reina como una cabra vieja y enferma.",
+        "highlights": [
+          "campesino",
+          "clérigo",
+          "rey",
+          "Francia",
+          "reina",
+          "cabra"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 240
+      },
+      {
+        "durationInSeconds": 8.52,
+        "image": "templates/storytime-summary/images/scene_8.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_9.wav",
+        "subtitle": "Todo apestaba por igual en verano y en invierno, pues en el siglo XVIII aún no se había atajado la acción corrosiva de las bacterias.",
+        "highlights": [
+          "verano",
+          "invierno",
+          "siglo",
+          "XVIII",
+          "corrosiva",
+          "bacterias"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 256
+      },
+      {
+        "durationInSeconds": 8.62,
+        "image": "templates/storytime-summary/images/scene_3.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_10.wav",
+        "subtitle": "Y como era natural, el hedor alcanzaba su máxima y monstruosa proporción en la mayor ciudad del reino: el sombrío París.",
+        "highlights": [
+          "hedor",
+          "máxima",
+          "monstruosa",
+          "proporción",
+          "sombrío",
+          "París"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 259
+      },
+      {
+        "durationInSeconds": 9.44,
+        "image": "templates/storytime-summary/images/scene_9.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_11.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_vine_boom.wav",
+        "sfxVolume": 0.4,
+        "subtitle": "Y dentro de París había un lugar donde el hedor era verdaderamente infernal: el macabro cementerio del Cimetière des Innocents.",
+        "highlights": [
+          "París",
+          "infernal",
+          "macabro",
+          "cementerio",
+          "Cimetière",
+          "Innocents"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 283
+      },
+      {
+        "durationInSeconds": 10.72,
+        "image": "templates/storytime-summary/images/scene_9.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_12.wav",
+        "subtitle": "Durante ochocientos años, carretas con docenas de cadáveres vaciaron sin descanso su hedionda carga día tras día en largas fosas subterráneas.",
+        "highlights": [
+          "ochocientos",
+          "cadáveres",
+          "vaciaron",
+          "hedionda",
+          "fosas",
+          "subterráneas"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 322
+      },
+      {
+        "durationInSeconds": 8,
+        "image": "templates/storytime-summary/images/scene_3.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_13.wav",
+        "subtitle": "Hasta que en vísperas de la Revolución Francesa, varias fosas rebosantes se hundieron y estalló un tumulto por el olor pútrido.",
+        "highlights": [
+          "vísperas",
+          "Revolución",
+          "Francesa",
+          "fosas",
+          "hundieron",
+          "pútrido"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 240
+      },
+      {
+        "durationInSeconds": 8.48,
+        "image": "templates/storytime-summary/images/scene_9.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_14.wav",
+        "subtitle": "Las autoridades clausuraron el camposanto y amontonaron millones de esqueletos y calaveras en las profundas catacumbas de Montmartre.",
+        "highlights": [
+          "clausuraron",
+          "amontonaron",
+          "millones",
+          "esqueletos",
+          "calaveras",
+          "catacumbas"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 254
+      },
+      {
+        "durationInSeconds": 9.4,
+        "image": "templates/storytime-summary/images/scene_3.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_15.wav",
+        "subtitle": "Una vez vaciado de sus huesos mortales, en ese exacto y profano lugar del antiguo cementerio se erigió un concurrido mercado de víveres.",
+        "highlights": [
+          "vaciado",
+          "huesos",
+          "profano",
+          "antiguo",
+          "erigió",
+          "mercado"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 282
+      },
+      {
+        "durationInSeconds": 12,
+        "image": "templates/storytime-summary/images/scene_4.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_16.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_page_turn.wav",
+        "sfxVolume": 0.5,
+        "subtitle": "Fue precisamente ahí, en el punto más maloliente de todo el reino de Francia, donde nació el 17 de julio de 1738 Jean-Baptiste Grenouille.",
+        "highlights": [
+          "maloliente",
+          "reino",
+          "Francia",
+          "nació",
+          "julio",
+          "Grenouille"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 360
+      },
+      {
+        "durationInSeconds": 8.84,
+        "image": "templates/storytime-summary/images/scene_4.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_17.wav",
+        "subtitle": "Era uno de los días más calurosos del siglo; un vaho putrefacto de melones podridos y cuerno quemado cubría todo el mercado de pescado.",
+        "highlights": [
+          "calurosos",
+          "vaho",
+          "putrefacto",
+          "podridos",
+          "mercado",
+          "pescado"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 265
+      },
+      {
+        "durationInSeconds": 9.08,
+        "image": "templates/storytime-summary/images/scene_10.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_18.wav",
+        "subtitle": "Cuando iniciaron los dolores del parto, la joven madre de Grenouille se encontraba escamando albures ensangrentados junto a su mostrador.",
+        "highlights": [
+          "dolores",
+          "parto",
+          "joven",
+          "madre",
+          "escamando",
+          "ensangrentados"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 272
+      },
+      {
+        "durationInSeconds": 9.12,
+        "image": "templates/storytime-summary/images/scene_10.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_19.wav",
+        "subtitle": "Ella no percibía el olor insoportable del pescado ni del cementerio, pues su sentido del olfato y del dolor estaba totalmente embotado.",
+        "highlights": [
+          "percibía",
+          "insoportable",
+          "pescado",
+          "cementerio",
+          "olfato",
+          "embotado"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 274
+      },
+      {
+        "durationInSeconds": 9.4,
+        "image": "templates/storytime-summary/images/scene_10.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_20.wav",
+        "subtitle": "Era su quinto parto. Todos sus hijos anteriores habían nacido muertos entre las tripas del suelo, barridos en carretas hacia el río Sena.",
+        "highlights": [
+          "quinto",
+          "parto",
+          "muertos",
+          "tripas",
+          "barridos",
+          "río",
+          "Sena"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 282
+      },
+      {
+        "durationInSeconds": 8.5,
+        "image": "templates/storytime-summary/images/scene_11.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_21.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_whip.wav",
+        "sfxVolume": 0.4,
+        "subtitle": "Se acurrucó sumisa bajo el mostrador, parió entre los despojos y cortó con el cuchillo de desescamar el cordón umbilical de la criatura.",
+        "highlights": [
+          "acurrucó",
+          "mostrador",
+          "parió",
+          "despojos",
+          "cortó",
+          "cuchillo",
+          "umbilical"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 255
+      },
+      {
+        "durationInSeconds": 8.54,
+        "image": "templates/storytime-summary/images/scene_11.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_22.wav",
+        "subtitle": "Pero por el sofocante calor y el enervante hedor que la ahogaba como un campo de lirios de muerte, se desvaneció inconsciente en el arroyo.",
+        "highlights": [
+          "sofocante",
+          "calor",
+          "ahogaba",
+          "lirios",
+          "muerte",
+          "desvaneció",
+          "inconsciente"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 256
+      },
+      {
+        "durationInSeconds": 8.76,
+        "image": "templates/storytime-summary/images/scene_12.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_23.wav",
+        "subtitle": "La multitud alterada se agolpó alrededor llamando a gritos a la guardia de policía mientras la joven mujer recobraba en confusión la razón.",
+        "highlights": [
+          "multitud",
+          "alterada",
+          "agolpó",
+          "gritos",
+          "guardia",
+          "policía",
+          "confusión"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 263
+      },
+      {
+        "durationInSeconds": 9.34,
+        "image": "templates/storytime-summary/images/scene_12.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_24.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_vine_boom.wav",
+        "sfxVolume": 0.5,
+        "subtitle": "Entonces, de modo imprevisible y sobrenatural, el recién nacido oculto bajo la mesa comenzó a gritar estruendosa y ferozmente.",
+        "highlights": [
+          "imprevisible",
+          "sobrenatural",
+          "recién",
+          "nacido",
+          "gritar",
+          "estruendosa",
+          "ferozmente"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 280
+      },
+      {
+        "durationInSeconds": 9.24,
+        "image": "templates/storytime-summary/images/scene_12.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_25.wav",
+        "subtitle": "La gente sorprendida descubrió al bebé entre un repugnante enjambre de moscas, tripas de pescado y barro sucio, salvándole así la vida.",
+        "highlights": [
+          "sorprendida",
+          "descubrió",
+          "bebé",
+          "repugnante",
+          "enjambre",
+          "moscas",
+          "salvándole"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 277
+      },
+      {
+        "durationInSeconds": 9.1,
+        "image": "templates/storytime-summary/images/scene_13.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_26.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_whoosh.wav",
+        "sfxVolume": 0.4,
+        "subtitle": "Al confesar su madre sin culpa que lo habría dejado morir igual que a los anteriores, fue condenada a muerte y decapitada en la Place de Grève.",
+        "highlights": [
+          "confesar",
+          "culpa",
+          "morir",
+          "condenada",
+          "muerte",
+          "decapitada",
+          "Grève"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 273
+      },
+      {
+        "durationInSeconds": 8.88,
+        "image": "templates/storytime-summary/images/scene_13.jpg",
+        "animation": "pan-left",
+        "audio": "templates/storytime-summary/audio/vo_scene_27.wav",
+        "subtitle": "Mientras su madre moría bajo el filo de la guillotina colonial, el niño ya había agotado a tres desesperadas nodrizas en pocas semanas.",
+        "highlights": [
+          "moría",
+          "filo",
+          "guillotina",
+          "agotado",
+          "desesperadas",
+          "nodrizas",
+          "semanas"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 266
+      },
+      {
+        "durationInSeconds": 9.92,
+        "image": "templates/storytime-summary/images/scene_5.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_28.wav",
+        "subtitle": "Ninguna mujer quería cuidarlo más de dos días. Afirmaban con espanto que era voraz y monstruoso, mamando la leche de dos lactantes juntos.",
+        "highlights": [
+          "ninguna",
+          "cuidarlo",
+          "espanto",
+          "voraz",
+          "monstruoso",
+          "mamando",
+          "leche"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 298
+      },
+      {
+        "durationInSeconds": 8.5,
+        "image": "templates/storytime-summary/images/scene_5.jpg",
+        "animation": "pan-right",
+        "audio": "templates/storytime-summary/audio/vo_scene_29.wav",
+        "subtitle": "El frustrado oficial de policía La Fosse intentó enviarlo a una inclusa de huérfanos lejana por medio de canastas hacinadas en carretas.",
+        "highlights": [
+          "frustrado",
+          "oficial",
+          "policía",
+          "inclusa",
+          "huérfanos",
+          "canastas",
+          "carretas"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 255
+      },
+      {
+        "durationInSeconds": 8.98,
+        "image": "templates/storytime-summary/images/scene_6.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_30.wav",
+        "subtitle": "Pero ante trabas burocráticas y el apremio del tiempo, La Fosse cambió de plan y ordenó entregar al bebé anónimo a una abadía religiosa.",
+        "highlights": [
+          "trabas",
+          "burocráticas",
+          "apremio",
+          "tiempo",
+          "entregar",
+          "anónimo",
+          "abadía"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 269
+      },
+      {
+        "durationInSeconds": 8.76,
+        "image": "templates/storytime-summary/images/scene_6.jpg",
+        "animation": "zoom-out",
+        "audio": "templates/storytime-summary/audio/vo_scene_31.wav",
+        "sfx": "templates/storytime-summary/audio/sfx_page_turn.wav",
+        "sfxVolume": 0.5,
+        "subtitle": "Fue recibido en el austero convento de Saint-Merri, donde el prior lo bautizó oficialmente con el nombre inmortal de Jean-Baptiste.",
+        "highlights": [
+          "austero",
+          "convento",
+          "Saint-Merri",
+          "prior",
+          "bautizó",
+          "inmortal",
+          "Jean-Baptiste"
+        ],
+        "highlightColor": "#FFD700",
+        "durationInFrames": 263
+      },
+      {
+        "durationInSeconds": 9,
+        "image": "templates/storytime-summary/images/scene_1.jpg",
+        "animation": "zoom-in",
+        "audio": "templates/storytime-summary/audio/vo_scene_32.wav",
+        "subtitle": "Y allí quedó a cuidado de una nodriza pagada por el convento, iniciando la oscura y legendaria odisea del mayor genio y asesino del olfato.",
+        "highlights": [
+          "nodriza",
+          "pagada",
+          "convento",
+          "oscura",
+          "legendaria",
+          "odisea",
+          "genio",
+          "asesino"
+        ],
+        "highlightColor": "#E53935",
+        "durationInFrames": 270
+      }
+    ]
+  },
+  {
+    "id": "dracula_cap_1",
+    "category": "literatura_gothica",
+    "title": "Drácula - Bram Stoker",
+    "chapterTitle": "EL DIARIO DE JONATHAN HARKER",
+    "backgroundAudio": "",
+    "voiceoverAudio": "",
+    "scenes": [
+      {
+        "durationInSeconds": 6,
+        "image": "templates/storytime-summary/images/scene_1.jpg",
+        "animation": "zoom-in",
+        "subtitle": "3 de mayo. Bistritz. Salí de Munich el primero de mayo y llegué por la mañana tras cruzar los siniestros Cárpatos.",
+        "highlights": [
+          "Bistritz",
+          "Munich",
+          "siniestros",
+          "Cárpatos"
+        ],
+        "highlightColor": "#FFD700"
+      }
+    ]
+  }
+]

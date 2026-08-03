@@ -9,6 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_SOURCES = [
+  // { file: "./src/templates/storytime-summary/data/storytime_data.json", category: "literatura_gothica", compId: "StorytimeSummaryVideo" },
   // { file: "./src/templates/math-quiz-viral/data/math-viral.json", category: "matemáticas_viral", compId: "MathQuizViralVideo" },
   // { file: "./src/templates/guess-flag/data/flags.json", category: "banderas", compId: "GuessFlagVideo" },
   // { file: "./src/templates/guess-flag-1min/data/flags-1min.json", category: "banderas_1min", compId: "GuessFlag1MinVideo" },
@@ -91,6 +92,11 @@ const start = async () => {
         imageUrl: q.imageUrl,
         backgroundColor: q.backgroundColor,
         ctaColor: q.ctaColor,
+        // Props específicas del template Storytime Summary
+        scenes: q.scenes,
+        chapterTitle: q.chapterTitle,
+        backgroundAudio: q.backgroundAudio,
+        voiceoverAudio: q.voiceoverAudio,
       };
 
       // 3. Seleccionar la composición con las props específicas

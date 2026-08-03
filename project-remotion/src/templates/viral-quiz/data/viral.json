@@ -1,142 +1,282 @@
 [
   {
-    "id": 1,
-    "category": "lógica",
-    "question": "¿Cuántos meses tienen 28 días?",
+    "id": 11,
+    "category": "acertijo",
+    "question": "Si un gallo pone un huevo en la cima de un tejado, ¿hacia dónde cae?",
     "options": [
-      "A) Solo 1",
-      "B) Todos (12)",
-      "C) 11 meses"
+      "A) Hacia la izquierda",
+      "B) Hacia la derecha",
+      "C) Los gallos no ponen huevos"
     ],
-    "answerIndex": 1,
-    "imageUrl": "q1.png",
-    "backgroundColor": "#FF5722",
-    "audioFile": "q1.wav"
+    "answerIndex": 2,
+    "imageUrl": "q11.png",
+    "backgroundColor": "#E91E63",
+    "audioFile": "q11.wav"
   },
   {
-    "id": 2,
+    "id": 12,
+    "category": "gastronomía",
+    "question": "¿En qué país se inventó la famosa ensalada César?",
+    "options": [
+      "A) Italia",
+      "B) México",
+      "C) Francia"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q12.png",
+    "backgroundColor": "#9C27B0",
+    "audioFile": "q12.wav"
+  },
+  {
+    "id": 13,
+    "category": "lógica",
+    "question": "Si lanzas una piedra roja al mar azul, ¿cómo queda la piedra?",
+    "options": [
+      "A) Violeta",
+      "B) Azul",
+      "C) Mojada"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q13.png",
+    "backgroundColor": "#673AB7",
+    "audioFile": "q13.wav"
+  },
+  {
+    "id": 14,
+    "category": "matemáticas",
+    "question": "Un médico te da 3 pastillas para tomar una cada media hora. ¿Cuánto duran?",
+    "options": [
+      "A) 1 hora y media",
+      "B) 1 hora",
+      "C) 3 horas"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q14.png",
+    "backgroundColor": "#3F51B5",
+    "audioFile": "q14.wav"
+  },
+  {
+    "id": 15,
+    "category": "lógica",
+    "question": "¿Qué mes del año tiene 28 días?",
+    "options": [
+      "A) Solo febrero",
+      "B) Todos los meses",
+      "C) Ninguno"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q15.png",
+    "backgroundColor": "#2196F3",
+    "audioFile": "q15.wav"
+  },
+  {
+    "id": 16,
+    "category": "biología",
+    "question": "¿De qué color es la sangre de los pulpos?",
+    "options": [
+      "A) Roja",
+      "B) Azul",
+      "C) Transparente"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q16.png",
+    "backgroundColor": "#03A9F4",
+    "audioFile": "q16.wav"
+  },
+  {
+    "id": 17,
+    "category": "acertijo",
+    "question": "¿Cuántos lados tiene un círculo?",
+    "options": [
+      "A) Ninguno",
+      "B) Infinitos",
+      "C) Dos (adentro y afuera)"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q17.png",
+    "backgroundColor": "#00BCD4",
+    "audioFile": "q17.wav"
+  },
+  {
+    "id": 18,
+    "category": "historia",
+    "question": "¿De qué color era realmente el caballo blanco de Napoleón?",
+    "options": [
+      "A) Blanco puro",
+      "B) Gris claro tordillo",
+      "C) Marrón"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q18.png",
+    "backgroundColor": "#009688",
+    "audioFile": "q18.wav"
+  },
+  {
+    "id": 19,
+    "category": "acertijo",
+    "question": "Si me nombras en voz alta, desaparezco. ¿Qué soy?",
+    "options": [
+      "A) El silencio",
+      "B) Un secreto",
+      "C) El eco"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "q19.png",
+    "backgroundColor": "#4CAF50",
+    "audioFile": "q19.wav"
+  },
+  {
+    "id": 20,
     "category": "botánica",
-    "question": "¿El aguacate (palta) es una fruta o una verdura?",
+    "question": "¿El tomate es técnicamente una fruta o una verdura?",
     "options": [
       "A) Verdura",
       "B) Fruta",
-      "C) Legumbre"
+      "C) Hortaliza"
     ],
     "answerIndex": 1,
-    "imageUrl": "q2.png",
-    "backgroundColor": "#4CAF50",
-    "audioFile": "q2.wav"
-  },
-  {
-    "id": 3,
-    "category": "ciencia",
-    "question": "¿De qué color es un espejo perfecto?",
-    "options": [
-      "A) Plateado",
-      "B) Blanco",
-      "C) Verde"
-    ],
-    "answerIndex": 2,
-    "imageUrl": "q3.png",
-    "backgroundColor": "#9C27B0",
-    "audioFile": "q3.wav"
-  },
-  {
-    "id": 4,
-    "category": "física",
-    "question": "¿Qué pesa más, un kilo de algodón o un kilo de hierro?",
-    "options": [
-      "A) El hierro",
-      "B) El algodón",
-      "C) Pesan exactamente lo mismo"
-    ],
-    "answerIndex": 2,
-    "imageUrl": "q4.png",
-    "backgroundColor": "#607D8B",
-    "audioFile": "q4.wav"
-  },
-  {
-    "id": 5,
-    "category": "animales",
-    "question": "¿Cuál es el animal más letal para el ser humano?",
-    "options": [
-      "A) El tiburón",
-      "B) El león",
-      "C) El mosquito"
-    ],
-    "answerIndex": 2,
-    "imageUrl": "q5.png",
-    "backgroundColor": "#F44336",
-    "audioFile": "q5.wav"
-  },
-  {
-    "id": 6,
-    "category": "dinosaurios",
-    "question": "¿Cuál de estos animales NO es un dinosaurio?",
-    "options": [
-      "A) T-Rex",
-      "B) Pterodáctilo",
-      "C) Triceratops"
-    ],
-    "answerIndex": 1,
-    "imageUrl": "q6.png",
-    "backgroundColor": "#795548",
-    "audioFile": "q6.wav"
-  },
-  {
-    "id": 7,
-    "category": "ciencia",
-    "question": "¿El agua moja?",
-    "options": [
-      "A) Sí, obviamente",
-      "B) No, hace que otras cosas se mojen",
-      "C) Solo si está fría"
-    ],
-    "answerIndex": 1,
-    "imageUrl": "q7.png",
-    "backgroundColor": "#03A9F4",
-    "audioFile": "q7.wav"
-  },
-  {
-    "id": 8,
-    "category": "historia",
-    "question": "¿En qué país se inventaron las papas fritas (french fries)?",
-    "options": [
-      "A) Francia",
-      "B) Estados Unidos",
-      "C) Bélgica"
-    ],
-    "answerIndex": 2,
-    "imageUrl": "q8.png",
-    "backgroundColor": "#FFC107",
-    "audioFile": "q8.wav"
-  },
-  {
-    "id": 9,
-    "category": "matemáticas",
-    "question": "¿Qué número NO existe en los números romanos?",
-    "options": [
-      "A) El 10.000",
-      "B) El Cero (0)",
-      "C) El 5.000"
-    ],
-    "answerIndex": 1,
-    "imageUrl": "q9.png",
-    "backgroundColor": "#3F51B5",
-    "audioFile": "q9.wav"
-  },
-  {
-    "id": 10,
-    "category": "animales",
-    "question": "¿Por qué parte del cuerpo sudan los perros?",
-    "options": [
-      "A) Por la lengua",
-      "B) Por las patas (almohadillas)",
-      "C) Por la nariz"
-    ],
-    "answerIndex": 1,
-    "imageUrl": "q10.png",
+    "imageUrl": "q20.png",
     "backgroundColor": "#8BC34A",
-    "audioFile": "q10.wav"
+    "audioFile": "q20.wav"
+  },
+  {
+    "id": 21,
+    "category": "física",
+    "question": "¿Por qué el cielo se ve de color azul durante el día?",
+    "options": [
+      "A) Refleja el océano",
+      "B) Dispersión de la luz solar",
+      "C) Por el oxígeno"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q21.png",
+    "backgroundColor": "#CDDC39",
+    "audioFile": "q21.wav"
+  },
+  {
+    "id": 22,
+    "category": "lógica",
+    "question": "Un granjero tiene 17 ovejas y se le mueren todas menos 9. ¿Cuántas le quedan?",
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) 0"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q22.png",
+    "backgroundColor": "#FFC107",
+    "audioFile": "q22.wav"
+  },
+  {
+    "id": 23,
+    "category": "cultura pop",
+    "question": "¿El personaje del Monopoly lleva un monóculo en el ojo?",
+    "options": [
+      "A) Sí, siempre",
+      "B) No, nunca ha tenido",
+      "C) Solo en algunas versiones"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q23.png",
+    "backgroundColor": "#FF9800",
+    "audioFile": "q23.wav"
+  },
+  {
+    "id": 24,
+    "category": "astronomía",
+    "question": "¿Cuánto tarda aproximadamente la luz del Sol en llegar a la Tierra?",
+    "options": [
+      "A) Instantáneo",
+      "B) 8 minutos",
+      "C) 24 horas"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q24.png",
+    "backgroundColor": "#FF5722",
+    "audioFile": "q24.wav"
+  },
+  {
+    "id": 25,
+    "category": "biología",
+    "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "options": [
+      "A) El hígado",
+      "B) La piel",
+      "C) El intestino"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q25.png",
+    "backgroundColor": "#EC407A",
+    "audioFile": "q25.wav"
+  },
+  {
+    "id": 26,
+    "category": "acertijo",
+    "question": "¿Qué entra seco al agua y sale húmedo y más pesado?",
+    "options": [
+      "A) Una esponja",
+      "B) El pan",
+      "C) Una toalla"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "q26.png",
+    "backgroundColor": "#AB47BC",
+    "audioFile": "q26.wav"
+  },
+  {
+    "id": 27,
+    "category": "zoología",
+    "question": "¿Qué animal duerme con un ojo abierto para mantenerse alerta?",
+    "options": [
+      "A) El delfín",
+      "B) El búho",
+      "C) El caballo"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "q27.png",
+    "backgroundColor": "#7E57C2",
+    "audioFile": "q27.wav"
+  },
+  {
+    "id": 28,
+    "category": "geografía",
+    "question": "¿En qué continente se encuentra la selva amazónica?",
+    "options": [
+      "A) África",
+      "B) América del Sur",
+      "C) Asia"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q28.png",
+    "backgroundColor": "#26A69A",
+    "audioFile": "q28.wav"
+  },
+  {
+    "id": 29,
+    "category": "lógica",
+    "question": "Si un avión se estrella en la frontera entre dos países, ¿dónde entierran a los supervivientes?",
+    "options": [
+      "A) En el país de origen",
+      "B) En el país vecino",
+      "C) Los supervivientes no se entierran"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q29.png",
+    "backgroundColor": "#FFA726",
+    "audioFile": "q29.wav"
+  },
+  {
+    "id": 30,
+    "category": "ciencias",
+    "question": "¿Qué elemento gaseoso es indispensable para la respiración humana?",
+    "options": [
+      "A) Oxígeno",
+      "B) Nitrógeno",
+      "C) Hidrógeno"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "q30.png",
+    "backgroundColor": "#66BB6A",
+    "audioFile": "q30.wav"
   }
 ]

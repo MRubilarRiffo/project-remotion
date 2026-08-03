@@ -6,11 +6,24 @@ import { GuessFlag1MinVideo } from "./templates/guess-flag-1min/GuessFlag1MinVid
 import { ViralQuizVideo } from "./templates/viral-quiz/ViralQuizVideo";
 import { ViralQuizVideo2 } from "./templates/viral-quiz-2/ViralQuizVideo2";
 import { MathQuizViralVideo } from "./templates/math-quiz-viral/MathQuizViralVideo";
+import { StorytimeSummaryVideo } from "./templates/storytime-summary/StorytimeSummaryVideo";
+import storytimeData from "./templates/storytime-summary/data/storytime_data.json";
 import "./index.css";
 
 export const RemotionRoot = () => {
   return (
     <>
+      {/* ═══ STORYTIME NARRATIVE RESUMEN (16:9 - Video Largo / Resumen) ═══ */}
+      <Composition
+        id="StorytimeSummaryVideo"
+        component={StorytimeSummaryVideo}
+        durationInFrames={storytimeData[0].scenes.reduce((acc, s) => acc + (s.durationInFrames || Math.round((s.durationInSeconds || 6) * 30)), 0)} // Ahora 8,554 fotogramas (4 min 45 seg) calculado dinámicamente según el audio real
+        fps={30}
+        width={1920} // Formato horizontal 16:9 para video largo de YouTube Automation
+        height={1080}
+        defaultProps={storytimeData[0]}
+      />
+
       {/* ═══ MATH QUIZ VIRAL — 8s ═══ */}
       <Composition
         id="MathQuizViralVideo"

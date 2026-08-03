@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "category": "matemáticas",
+    "question": "Si divides 30 entre medio (0.5) y le sumas 10, ¿cuál es el resultado?",
+    "options": [
+      "A) 25",
+      "B) 70",
+      "C) 15"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q1.png",
+    "backgroundColor": "#FF5722",
+    "audioFile": "q1.wav"
+  },
+  {
+    "id": 2,
+    "category": "lógica",
+    "question": "Estás en una carrera y adelantas al que va en segundo lugar. ¿En qué posición quedas?",
+    "options": [
+      "A) Primero",
+      "B) Segundo",
+      "C) Tercero"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q2.png",
+    "backgroundColor": "#4CAF50",
+    "audioFile": "q2.wav"
+  },
+  {
+    "id": 3,
+    "category": "historia",
+    "question": "¿Cuántos animales de cada especie metió Moisés en el arca?",
+    "options": [
+      "A) Dos",
+      "B) Ninguno",
+      "C) Siete"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q3.png",
+    "backgroundColor": "#9C27B0",
+    "audioFile": "q3.wav"
+  },
+  {
+    "id": 4,
+    "category": "lógica",
+    "question": "El padre de Ana tiene 5 hijas: Nana, Nene, Nini, Nono y...",
+    "options": [
+      "A) Nunu",
+      "B) Ana",
+      "C) Nina"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q4.png",
+    "backgroundColor": "#607D8B",
+    "audioFile": "q4.wav"
+  },
+  {
+    "id": 5,
+    "category": "física",
+    "question": "¿Qué pesa más, un litro de agua o un litro de aceite?",
+    "options": [
+      "A) El agua",
+      "B) El aceite",
+      "C) Pesan lo mismo"
+    ],
+    "answerIndex": 0,
+    "imageUrl": "q5.png",
+    "backgroundColor": "#F44336",
+    "audioFile": "q5.wav"
+  },
+  {
+    "id": 6,
+    "category": "lógica",
+    "question": "Si un tren eléctrico va hacia el norte y el viento sopla hacia el sur, ¿hacia dónde va el humo?",
+    "options": [
+      "A) Hacia el sur",
+      "B) Hacia el norte",
+      "C) No hay humo"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q6.png",
+    "backgroundColor": "#795548",
+    "audioFile": "q6.wav"
+  },
+  {
+    "id": 7,
+    "category": "acertijo",
+    "question": "¿Qué se hace más grande cuanto más le quitas?",
+    "options": [
+      "A) Un problema",
+      "B) Un agujero",
+      "C) Un incendio"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q7.png",
+    "backgroundColor": "#03A9F4",
+    "audioFile": "q7.wav"
+  },
+  {
+    "id": 8,
+    "category": "geografía",
+    "question": "¿Cuál es la capital de Australia?",
+    "options": [
+      "A) Sídney",
+      "B) Melbourne",
+      "C) Canberra"
+    ],
+    "answerIndex": 2,
+    "imageUrl": "q8.png",
+    "backgroundColor": "#FFC107",
+    "audioFile": "q8.wav"
+  },
+  {
+    "id": 9,
+    "category": "astronomía",
+    "question": "¿Cuál es el planeta más caluroso del sistema solar?",
+    "options": [
+      "A) Mercurio",
+      "B) Venus",
+      "C) Marte"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q9.png",
+    "backgroundColor": "#3F51B5",
+    "audioFile": "q9.wav"
+  },
+  {
+    "id": 10,
+    "category": "biología",
+    "question": "¿Los humanos usamos solo el 10% de nuestro cerebro?",
+    "options": [
+      "A) Sí, es ciencia",
+      "B) No, usamos el 100%",
+      "C) Usamos el 50%"
+    ],
+    "answerIndex": 1,
+    "imageUrl": "q10.png",
+    "backgroundColor": "#8BC34A",
+    "audioFile": "q10.wav"
+  }
+]
