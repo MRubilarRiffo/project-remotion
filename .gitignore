@@ -27,8 +27,14 @@ skills-lock.json
 
 # Archivos de video, automatización y scripts no deseados en repo
 *.mp4
-automation/
+automation/get_metrics.js
+automation/schedule_perfume.js
+automation/upload_next_10.js
+automation/upload_now.js
+automation/upload_remaining.js
+automation/upload_videos.js
 project-remotion/copy_audio.ps1
 project-remotion/update_scene_durations.cjs
 project-remotion/update_scene_durations.js
 project-remotion/test_frame.png
+
